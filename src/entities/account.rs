@@ -10,7 +10,7 @@ pub struct Account {
     pub display_name: String,
     pub locked: bool,
     pub discoverable: Option<bool>,
-    pub group: Option<bool>,
+    pub group: Option<Option<bool>>,
     pub noindex: Option<bool>,
     pub moved: Option<Box<Account>>,
     pub suspended: Option<bool>,
