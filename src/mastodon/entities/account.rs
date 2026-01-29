@@ -11,7 +11,7 @@ pub struct Account {
     display_name: String,
     locked: bool,
     discoverable: Option<bool>,
-    group: bool,
+    group: Option<bool>,
     noindex: Option<bool>,
     moved: Option<Box<Account>>,
     suspended: Option<bool>,
